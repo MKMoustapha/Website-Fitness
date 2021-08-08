@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- For the icon -->
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <div class="container">
+        <head>
+            <h1 class="logo">Tiger</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">+222 158 624 <i class="fas fa-phone-alt"></i></a></li>
+                    <button class="btn1">Log In</button>
+                    <button class="btn2">Free Trial</button>
+                </ul>
+            </nav>
+        </head>
+        <div class="land">
+            <div class="describe">
+                <h1>Build your <span>Body</span> and <br> you'll controle your <span>life</span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error doloribus deserunt, <br> eos eaque architecto nostrum dignissimos saepe sit ex et quas iure cupiditate possimus <br> accusantium, veniam voluptatum ab aperiam consequuntur?</p>
+                <button>Trial</button>
+            </div>
+            <div class="img">
+                <img src="images/4.png" alt="" id="img">
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript for set an intervall to change the pic -->
+   
+    <script>
+        var img = document.getElementById("img");
+
+        let images = ['images/1.png','images/2.png','images/3.png','images/4.png'];
+
+        setInterval(function() {
+            let random = Math.floor(Math.random()*4);
+            img.src = images[random];
+        },2000);
+    </script>
+</body>
+</html>

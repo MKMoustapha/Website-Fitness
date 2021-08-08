@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #181919;
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden ;
+}
+head {
+    width: 100%; 
+}
+.logo {
+    margin: 42px;
+    color: #fff;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-left: 4%;
+}
+li {
+    list-style: none;
+    padding: 0 50px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li a:hover {
+    color: rgb(255,73,73);
+}
+button {
+    border: none;
+    padding: O 20px;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+.btn1 {
+    outline: none;
+
+}
+.btn2 {
+    outline: none;
+    color: black;
+    background-color: white;
+    padding: 10px 2%;
+    border-radius: 10%;
+}
+.btn2:hover {
+    background-color: rgb(255,73,73);
+}
+.describe {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.describe h1 {
+    font-size: 300%;
+    color: white;
+
+}
+.describe h1 span {
+    color: rgb(255,73,73);
+    
+}
+.describe p {
+    font-size: 100%;
+    margin-top: 2%;
+    color: white;
+}
+.img {
+    margin-top: -24%;
+    margin-left: 55%;
+
+}
+.img img {
+    width: 90%;
+    background-color: transparent;
+    border-radius: 50% 9%;
+}
+.describe button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: rgb(255,73,73);
+    border-radius: 10%;
+
+}
